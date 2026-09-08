@@ -25,6 +25,7 @@ public class Student {
         int option = -1;
 
         while (option != 3) {
+            System.out.println("Hello World!");
             System.out.println("Welcome to Study Planner!");
             System.out.println("What would you like to do?");
             System.out.println(planner.getOptions());
